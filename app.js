@@ -16,7 +16,7 @@ function onReady(){
     let title = newToDoText.value;
 
 
-    toDos.push(toDoObj);
+    toDos.push(toDos);
     console.log(toDos);
 
     // create a new li
@@ -57,4 +57,3 @@ function onReady(){
 window.onload = function () {
   onReady();
 };
-}
